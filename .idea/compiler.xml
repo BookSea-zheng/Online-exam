@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exam-service" />
+        <module name="config-server" />
+        <module name="monitor-service" />
+        <module name="api-gateway" />
+        <module name="service-registry" />
+        <module name="auth-service" />
+        <module name="admin-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-service" target="1.8" />
+      <module name="api-gateway" target="1.8" />
+      <module name="auth-service" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="exam-service" target="1.8" />
+      <module name="monitor-service" target="1.8" />
+      <module name="online-exam" target="1.8" />
+      <module name="service-registry" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-service" options="-bootclasspath D:\Java\jdk1.8.0_191/jre/lib/rt.jar" />
+      <module name="api-gateway" options="-bootclasspath D:\Java\jdk1.8.0_191/jre/lib/rt.jar" />
+      <module name="auth-service" options="-bootclasspath D:\Java\jdk1.8.0_191/jre/lib/rt.jar" />
+      <module name="config-server" options="-bootclasspath D:\Java\jdk1.8.0_191/jre/lib/rt.jar" />
+      <module name="exam-service" options="-bootclasspath D:\Java\jdk1.8.0_191/jre/lib/rt.jar" />
+      <module name="monitor-service" options="-bootclasspath D:\Java\jdk1.8.0_191/jre/lib/rt.jar" />
+      <module name="service-registry" options="-bootclasspath D:\Java\jdk1.8.0_191/jre/lib/rt.jar" />
+    </option>
+  </component>
+</project>
